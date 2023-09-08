@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="background-color:transparent">
+  <defs>
+    <pattern id="pattern" patternUnits="userSpaceOnUse" width="100" height="51" patternTransform="rotate(0)">
+      <line x1="0" y="0" x2="0" y2="51" stroke="#212123" stroke-width="3"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#pattern)" opacity="1" />
+</svg>
