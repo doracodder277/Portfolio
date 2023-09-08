@@ -24,20 +24,9 @@ To get started, simply clone this repository and run `npm install` to install al
 
 ## Author
 
-👤 **Jonathan Sivahera**
+👤 **Mayank Kumar**
 
-- GitHub: [@jssol](https://github.com/jssol)
-- Twitter: [@jsivahera](https://twitter.com/jsivahera)
-- LinkedIn: [jsivahera](https://linkedin.com/in/jsivahera)
+- GitHub: [@jssol](https://github.com/doracodder277/)
+- Gmail: [@jsivahera](kmayank277@gmail.com)
+- LinkedIn: [jsivahera](https://www.linkedin.com/in/mayank-kumar-606711172/)
 
-## 🤝 Contributing
-
-Contributions and feedback are always welcome! Feel free to [submit a pull request](https://github.com/jssol/portfolio/compare) or [open an issue](https://github.com/jssol/portfolio/issues/new/choose) if you have any suggestions or find any bugs.
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## License
-
-This project is licensed under the [AGPL-3.0 License](./LICENSE).
