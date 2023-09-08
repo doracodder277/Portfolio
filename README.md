@@ -26,7 +26,7 @@ To get started, simply clone this repository and run `npm install` to install al
 
 👤 **Mayank Kumar**
 
-- GitHub: [@jssol](https://github.com/doracodder277/)
-- Gmail: [@jsivahera](kmayank277@gmail.com)
-- LinkedIn: [jsivahera](https://www.linkedin.com/in/mayank-kumar-606711172/)
+- GitHub: [@doracodder277](https://github.com/doracodder277/)
+- Gmail: [@kmayank277@gmail.com](kmayank277@gmail.com)
+- LinkedIn: [mayank-kumar](https://www.linkedin.com/in/mayank-kumar-606711172/)
 
