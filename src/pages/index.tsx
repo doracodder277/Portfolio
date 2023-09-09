@@ -29,7 +29,6 @@ const Home = () => (
         <CircleAnimation />
       </main>
     </NavProvider>
-  );
-};
+);
 
 export default Home;
