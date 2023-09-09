@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from '@/styles/Footer.module.scss';
 import { FaHeart } from 'react-icons/fa';
 import { BsArrowUpRightCircleFill } from 'react-icons/bs';
@@ -17,7 +17,7 @@ const Footer: React.FC<{}> = () => {
   return (
     <footer className={styles.container}>
       <TextAnimation type="fade_down" delay={0} className={styles.link}>
-        <a href="/resume.pdf" target='_blank' className={styles.resume_link} download="01JonathanSivahera">
+        <a href="/Resume_Mayank_Kumar.pdf" target='_blank' className={styles.resume_link} download="resume_Mayank_Kumar">
           <span className="span">Get my Resume</span>
           <BsArrowUpRightCircleFill />
         </a>
