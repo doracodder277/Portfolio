@@ -35,7 +35,7 @@ const Footer: React.FC<{}> = () => {
       </ul>
       <TextAnimation type="fade_down" delay={0} className={styles.copy}>
         <p>
-        Made with <FaHeart className={styles.love} /> by Jonathan Sivahera  • {year}
+        Made with <FaHeart className={styles.love} /> by Mayank Kumar  • {year}
         </p>
       </TextAnimation>
     </footer>
