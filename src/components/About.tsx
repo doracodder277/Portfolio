@@ -36,7 +36,7 @@ const About: React.FC<Props> = ({ componentRef, isVisible }) => {
             I&#39;ve worked with developers worldwide,
             sharpening my communication and teamwork skills.
           </p>
-          <a href="/resume.pdf" target='_blank' className={styles.resume_link} download="01JonathanSivahera">
+          <a href="/Resume_Mayank_Kumar.pdf" target='_blank' className={styles.resume_link} download="resume_Mayank_kumar">
             <span className="span">Get my Resume</span>
             <BsArrowUpRightCircleFill />
           </a>
