@@ -54,6 +54,37 @@
   }
 }
 
+.photo_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  z-index: -10;
+}
+
+.photo_frame {
+  position: relative;
+  width: 150px; /* Adjust the frame size as needed */
+  height: 180px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50%; /* Rounded frame */
+}
+
+.photo_image {
+  width: 90%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s; /* Hover effect duration */
+  //transform: translate(20px, 20px); /* Adjust coordinates as needed */
+}
+
+/* Hover effect */
+.photo_frame:hover .photo_image {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
 @media only screen and (min-width: 768px) {
   .container {
     width: 40%;
