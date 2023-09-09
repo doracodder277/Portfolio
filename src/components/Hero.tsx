@@ -48,7 +48,13 @@ const Hero: React.FC<Props> = ({ componentRef, variant, isVisible }) => {
           </ul>
         </section>
       </TextAnimation>
-      <TextAnimation type="fade_left" className="blob" delay={10} />
+        <TextAnimation type="fade_left" className="blob" delay={3} >
+            <section className={styles.photo_container}>
+                <section className={styles.photo_frame}>
+                    <img className={styles.photo_image} src="favicon.ico" alt="Your Photo"/>
+                </section>
+            </section>
+        </TextAnimation>
     </section>
   );
 };
