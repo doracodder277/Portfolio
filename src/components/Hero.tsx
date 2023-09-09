@@ -48,7 +48,7 @@ const Hero: React.FC<Props> = ({ componentRef, variant, isVisible }) => {
           </ul>
         </section>
       </TextAnimation>
-      <TextAnimation type="fade_left" className="blob" delay={0} />
+      <TextAnimation type="fade_left" className="blob" delay={10} />
     </section>
   );
 };

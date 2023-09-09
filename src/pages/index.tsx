@@ -10,8 +10,7 @@ import NavProvider from '@/components/NavContext';
 import CircleAnimation from '@/components/CircleAnimation';
 import styles from '@/styles/Home.module.scss';
 
-const Home = () => {
-  return (
+const Home = () => (
     <NavProvider>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

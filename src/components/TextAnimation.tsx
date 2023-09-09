@@ -11,7 +11,7 @@ interface Props {
 }
 
 const TextAnimation: React.FC<Props> = ({
-  type, delay, children, className = '', threshold = 0.5,
+  type, delay, children, className = '', threshold = 0.7,
 }) => {
   const [ref, inView] = useInView({ threshold }); // detect when element is 50% in viewport
 
