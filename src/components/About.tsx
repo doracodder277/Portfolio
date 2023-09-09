@@ -28,11 +28,13 @@ const About: React.FC<Props> = ({ componentRef, isVisible }) => {
         </TextAnimation>
         <TextAnimation className={styles.about_me} type="fade_down" delay={0}>
           <p>
-            Hi! I&#39;m a developer passionate about creating user-friendly interfaces.
-            With a background in electronics,
-            I&#39;ve honed my problem-solving and creativity skills.
+            Hi! I&#39;m a Full Stack Developer and DevOps Engineer passionate about creating
+            user-friendly interfaces, efficient backend and robust cloud infrastructure,
+            currently working with Thales Singapore within
+            In-Flight Entertainment and Connectivity Domain. With a background in
+            Information Technology, I&#39;ve honed my problem-solving and
+            Software Engineering skills.
             <br />
-            As a certified developer from Microverse, an online software school,
             I&#39;ve worked with developers worldwide,
             sharpening my communication and teamwork skills.
           </p>

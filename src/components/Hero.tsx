@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '@/styles/Hero.module.scss';
 import autoVisibilityToggler from '@/utils/autoVisibilityToggler';
 import socialLinks from '@/utils/socialLinks';
@@ -51,7 +52,7 @@ const Hero: React.FC<Props> = ({ componentRef, variant, isVisible }) => {
         <TextAnimation type="fade_left" className="blob" delay={3} >
             <section className={styles.photo_container}>
                 <section className={styles.photo_frame}>
-                    <img className={styles.photo_image} src="favicon.ico" alt="Your Photo"/>
+                    <Image className={styles.photo_image} src="/favicon.ico" alt="Your Photo" width={100} height={100}/>
                 </section>
             </section>
         </TextAnimation>

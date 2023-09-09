@@ -63,34 +63,37 @@ const Contact: React.FC<Props> = ({ componentRef, variant, isVisible }) => {
           Don&#39;t hesitate to reach out - let&#39;s make something cool together!
         </p>
       </TextAnimation>
-      <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
-        {({ isSubmitting }) => (
-          <Form className={styles.form}>
-            <div className={styles.input_container}>
-              <label className={styles.label} htmlFor="name">Your name</label>
-              <Field type="text" id="name" name="name" className={styles.input} />
-              <span className={styles.error}>
-                <ErrorMessage name="name" />
-              </span>
-            </div>
-            <div className={styles.input_container}>
-              <label className={styles.label} htmlFor="email">Your email</label>
-              <Field type="email" id="email" name="email" className={styles.input} />
-              <span className={styles.error}>
-                <ErrorMessage name="email" />
-              </span>
-            </div>
-            <div className={styles.area_container}>
-              <label className={styles.label} htmlFor="message">Your message</label>
-              <Field as="textarea" id="message" name="message" className={styles.textarea} maxLength="501" />
-              <span className={styles.error}>
-                <ErrorMessage name="message" />
-              </span>
-            </div>
-            <button className={`button ${styles.button}`} type="submit" disabled={isSubmitting}>Send</button>
-          </Form>
-        )}
-      </Formik>
+{/* <Formik initialValues={initialValues} validationSchema={validationSchema}
+onSubmit={onSubmit}> */}
+{/*  {({ isSubmitting }) => ( */}
+{/*    <Form className={styles.form}> */}
+{/*      <div className={styles.input_container}> */}
+{/*        <label className={styles.label} htmlFor="name">Your name</label> */}
+{/*        <Field type="text" id="name" name="name" className={styles.input} /> */}
+{/*        <span className={styles.error}> */}
+{/*          <ErrorMessage name="name" /> */}
+{/*        </span> */}
+{/*      </div> */}
+{/*      <div className={styles.input_container}> */}
+{/*        <label className={styles.label} htmlFor="email">Your email</label> */}
+{/*        <Field type="email" id="email" name="email" className={styles.input} /> */}
+{/*        <span className={styles.error}> */}
+{/*          <ErrorMessage name="email" /> */}
+{/*        </span> */}
+{/*      </div> */}
+{/*      <div className={styles.area_container}> */}
+{/*        <label className={styles.label} htmlFor="message">Your message</label> */}
+{/*        <Field as="textarea" id="message" name="message" className={styles.textarea}
+maxLength="501" /> */}
+{/*        <span className={styles.error}> */}
+{/*          <ErrorMessage name="message" /> */}
+{/*        </span> */}
+{/*      </div> */}
+{/*      <button className={`button ${styles.button}`} type="submit"
+disabled={isSubmitting}>Send</button> */}
+{/*    </Form> */}
+{/*  )} */}
+{/* </Formik> */}
       <ToastContainer
         position="bottom-left"
         autoClose={2500}

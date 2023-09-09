@@ -219,9 +219,10 @@ p {
   position: absolute;
   background-color: $accent;
   border-radius: 50%;
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   z-index: -10;
+  right: 20rem;
 }
 
 .hidden {
